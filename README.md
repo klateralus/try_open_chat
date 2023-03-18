@@ -8,9 +8,10 @@ When you're done with testing, `run_assistant.bat` will clean up the temporal fi
 
 To use open chat gpt you need to have an API key. 
 To learn how to get an API key click "Help -> How to make an api key" in a menu toolbar.
-To set a new API key click "Settings -> Preferences".
+To set a new API key click "Settings -> Preferences". There're a few more settings that can be adjusted.
 
-When you have API key and you're welcome to use open chat gpt.
+
+When you have API key set, you're welcome to use open chat gpt.
 
 
 Best wishes,
