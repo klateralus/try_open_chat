@@ -95,12 +95,12 @@ class AIAssistantSettingsWindow(QMainWindow):
         return self.ui.horizontalSliderCreativity
 
     def initialize_creativity(self):
-        value = int(get_temperature() * 100)
+        value = int((get_temperature() / 2.0) * self.creativity_slider.maximum())
         self.creativity_slider.setValue(value)
 
     def set_creativity(self):
         if self.creativity_slider.hasTracking():
-            value = self.creativity_slider.value() / self.creativity_slider.maximum()
+            value = (self.creativity_slider.value() / self.creativity_slider.maximum()) * 2.0
             set_temperature(value)
             self.settings_changed.emit()
 
