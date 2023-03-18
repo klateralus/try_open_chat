@@ -15,9 +15,6 @@ from .ai_api_key import get_api_key
 
 
 class AssistantWindow(QMainWindow):
-    native_tool_name = "AIAssistantTool"
-    native_tool_size = QSize(649, 452)
-
     PAGE_HOW_TO_CREATE_KEY = "https://elephas.app/blog/how-to-create-openai-api-keys-cl5c4f21d281431po7k8fgyol0"
     PAGE_API_KEY = "https://platform.openai.com/account/api-keys"
 

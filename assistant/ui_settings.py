@@ -17,9 +17,6 @@ class AISettingsSignals(QObject):
 
 
 class AIAssistantSettingsWindow(QMainWindow):
-    native_tool_name = "AIAssistantSettingsTool"
-    native_tool_size = QSize(649, 516)
-
     def __init__(self, parent):
         super().__init__(parent)
         self.ui = _Ui_AISettingsWindow()
