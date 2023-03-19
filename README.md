@@ -3,7 +3,7 @@ This is a simple python script to try out open chat gpt.
 
 To test the chat start the file called `run_assistant.bat`.
 
-`run_assistant.bat` will install all the necessary python modules and then well start the chat ui.
+`run_assistant.bat` will install all the necessary python modules in the same folder and then well start the chat ui.
 When you're done with testing, `run_assistant.bat` will clean up the temporal files, only leaving settings intact. 
 
 To use open chat gpt you need to have an API key. 
